@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/erezvaknin/openshift:v2'
-  tag: 'base'
+  image: 'quay.io/erezvaknin/openshift'
+  tag: 'chart_v3'
 
 service:
   servicePort: 8080
